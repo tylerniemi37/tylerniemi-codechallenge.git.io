@@ -1,0 +1,144 @@
+.navbar.navbar-default {
+  background-color: #414141;
+  border: 1px solid transparent
+}
+.navbar-nav.navbar-center > li > a,
+.navbar.navbar-default .navbar-search > li > a {
+  color: white;
+}
+
+.navbar-nav.navbar-center li a:hover {
+  background-color: rgba(0, 0, 0, 0.10);
+  color: white;
+}
+
+.container {
+  width: 100vw;
+}
+
+.centerDiv {
+  width: 60vw;
+  margin: 0 auto;
+}
+
+.div1_img, .div2_img, .div3_img {
+  width: 50%;
+  float: left;
+}
+
+img {
+width:50%;
+height: auto;
+}
+
+#div1_txt, #div2_txt, #div3_txt  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Responsive */
+
+@media (min-width: 576px) {
+    html { font-size: 1.5rem; }
+}
+@media (min-width: 768px) {
+    html { font-size: 1.5rem; }
+}
+@media (min-width: 992px) {
+    html { font-size: 1.75rem; }
+}
+@media (min-width: 1200px) {
+    html { font-size: 2rem; }
+    #div1_txt, #div2_txt, #div3_txt  {
+  height: 150px;
+}
+}
+
+@media only screen and (max-width: 768px){
+    .header ul{
+        background-color: #fff;
+    }
+    .header li a {
+    padding: 15px;
+    border-bottom: 1px dotted #ddd;
+
+  }
+}
+
+@media only screen and (min-width: 768px) {
+    .menu-wrapper{
+        background: #414141;
+        height: 55px;
+        line-height: 55px;
+        width: 100%;
+    }
+  .header li {
+    float: left;
+  }
+    .header .logo{
+        line-height: 1;
+    }
+  .header li a {
+    color: #fff;
+    padding: 0px 30px;
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+
+  }
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
+  }
+
+.content > div{
+  flex: 1;
+  width: 50%;
+}
+}
+
+
+
+
+@media (max-width: 1200px) {
+  .navbar.navbar-default {
+    padding: 15px 0;
+  }
+  .navbar.navbar-default .navbar-collapse {
+    margin-top: 15px;
+    margin-bottom: -15px;
+    border: 0;
+    box-shadow: none;
+    background-color: white;
+  }
+
+    .navbar.navbar-default .navbar-collapse li > a {
+    color: black;
+  }
+}
+@media (min-width: 768px) {
+  .navbar.navbar-default {} .navbar.navbar-default .navbar-nav.navbar-center {
+    width: 100%;
+    text-align: center;
+  }
+  .navbar.navbar-default .navbar-nav.navbar-center > li {
+    display: inline-block;
+    float: none
+  }
+  .navbar.navbar-default .navbar-nav.navbar-center > li > a {
+    line-height: 4;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .navbar.navbar-default .navbar-search {
+    position: absolute;
+    right: 2%;
+    top: 17px;
+    line-height: 4;
+    font-size: 20px;
+  }
+}
