@@ -73,6 +73,9 @@ height: auto;
         line-height: 55px;
         width: 100%;
     }
+  
+  h3 {font-size: 15px;}
+  h4 {font-size: 15px;}
   .header li {
     float: left;
   }
@@ -99,9 +102,6 @@ height: auto;
   width: 50%;
 }
 }
-
-
-
 
 @media (max-width: 1200px) {
   .navbar.navbar-default {
